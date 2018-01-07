@@ -1,5 +1,5 @@
 resource "aws_vpc" "main" {
-  cidr_block           = "${var.network}"
+  cidr_block           = "${cidrsubnet(var.network, 3, 0)}"
   enable_dns_support   = true
   enable_dns_hostnames = true
 
