@@ -3,6 +3,8 @@ This Terraform is a reference architecture for the Amazon Web Services (AWS)
 EC2 Container Service (ECS). This reference architecture is entirely written in
 Terraform and also utilizes Packer to create AMIs within your AWS account.
 
+To see the status of this project, please visit the project [milestones](https://github.com/scrothers/ecs-reference-architecture/milestones).
+
 ### The following AWS Services are used:
 * [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)
 * [Amazon EC2 Container Service (ECS)](https://aws.amazon.com/ecs/)
